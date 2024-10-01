@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!-- Lucas A. Kyle -->
+
+<script src = "code.js"></script>
+
+<head>
+	<link rel="stylesheet" href="main.css">
+	<title>INDEX</title>
+</head>
+
+
+
+<body onpageshow = "initializeIndex()">
+	<audio id = "Trigger With a Brutish Impulse">
+		<!--This song is definetly copyright protected but like I bought the digital soundtrack on steam so I'm pretty sure that means I'm allowed to use it for non business purposes-->
+		<!--Stop Beatin A-round Da Boosh!-->
+		<source src="014_Trigger.mp3" type="audio/mpeg">
+	  </audio>
+	<p>
+	<a id = "startButton"><button  onclick = "startSlide()"> Move Image </button></a>
+	<a id = "stopButton"><button onclick = "stopSlide()" disabled> Stop Image </button></a>
+	Movement area: <input id = "userBoundary" type = "number" placeholder ="200" oninput="updateBounds()">
+	</p>
+	<!-- bolded because of how important it is -->
+	<h1 class="GGfont"> <b>!IMPORTANT! !DRAMA!</b> </h1>
+	<p>
+		<!-- yes I made this and also its an in joke dw about it -->
+		<img id = "stopBeatingAroundDaBush" src = "Jerma985 CAUGHT BEATING AROUND DA BOOSH.png" alt = "Jerma985 looking in horror at an image of him Beating Around against Da Boosh" style	=	"margin-top: 0px; margin-left: 0px;">
+	</p>
+</body>
+
+</html>
